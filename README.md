@@ -25,14 +25,32 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 ## 3 Architectural Design
 
 
+### 3.2 Use Case Diagram
 
-### 3.1 Class Diagram
+<p align="center">
+  <img src="The Game of Life.pdf" width="500" title="">
+  <br>
+  <br>
+  UI
+</p>
 
+### 3.2 Class Diagram
 
+<p align="center">
+  <img src="UML class.pdf" width="500" title="">
+  <br>
+  <br>
+  UI
+</p>
 
-### 3.2 Sequence Diagram
+### 3.3 Sequence Diagram
 
-
+<p align="center">
+  <img src=" Sequence Diagram.pdf" width="500" title="">
+  <br>
+  <br>
+  UI
+</p>
 
 ## 4 User Guide/Implementation
 
