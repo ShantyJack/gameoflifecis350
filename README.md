@@ -25,7 +25,7 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 ## 3 Architectural Design
 
 
-### 3.2 Use Case Diagram
+### 3.1 Use Case Diagram
 
 <p align="center">
   <img src="The Game of Life.pdf" width="500" title="Use Case Diagram">
