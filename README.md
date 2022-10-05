@@ -28,7 +28,7 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 ### 3.2 Use Case Diagram
 
 <p align="center">
-  <img src="The Game of Life.pdf" width="500" title="">
+  <img src="The Game of Life.pdf" width="500" title="Use Case Diagram">
   <br>
   <br>
   UI
@@ -37,7 +37,7 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 ### 3.2 Class Diagram
 
 <p align="center">
-  <img src="UML class.pdf" width="500" title="">
+  <img src="UML class.pdf" width="500" title="Class Diagram">
   <br>
   <br>
   UI
@@ -46,7 +46,7 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 ### 3.3 Sequence Diagram
 
 <p align="center">
-  <img src=" Sequence Diagram.pdf" width="500" title="">
+  <img src=" Sequence Diagram.pdf" width="500" title="Sequence Diagram">
   <br>
   <br>
   UI
