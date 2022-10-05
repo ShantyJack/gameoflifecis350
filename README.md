@@ -51,18 +51,3 @@ The Game of Life 2 (working title) is an application that allows a user to creat
   <br>
   UI
 </p>
-
-## 4 User Guide/Implementation
-
-### 4.1 Client Side
-
-
-### 4.2 Server Side
-
-
-## 5 Future Scope
-
-
-
-## 6 Conclusion
-
