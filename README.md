@@ -11,7 +11,12 @@ here
 
 ## 2 Introduction
 
-
+<p align="center">
+  <img src="UI.png" width="500" title="UI">
+  <br>
+  <br>
+  UI
+</p>
 
 ## 3 Architectural Design
 
