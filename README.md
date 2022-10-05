@@ -37,7 +37,7 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 ### 3.2 Class Diagram
 
 <p align="center">
-  <img src="UML class.pdf" width="500" title="Class Diagram">
+  <img src="UML class.png" width="500" title="Class Diagram">
   <br>
   <br>
   UI
