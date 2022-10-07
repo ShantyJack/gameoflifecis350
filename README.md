@@ -27,6 +27,8 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 
 ### 3.1 Use Case Diagram
 
+For the case diagram there are four ways that the player can interact with the game. They can add an animals or resources, they can start the game, and pause the game. When each animal is placed in the game it has set traits. These traits include: field of view - which is how many squares around them they can see resources, hunger resistence - which is how long an animal can go before it starves, and thirst resistenc - which is how long an animal can go before it's thirsty.
+
 <p align="center">
   <img src="The Game of Life.png" width="500" title="Use Case Diagram">
   <br>
@@ -36,6 +38,8 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 
 ### 3.2 Class Diagram
 
+The main UI for the game is the grid. Each cell on the grid can either contain an animal or a resource that animal can use.
+
 <p align="center">
   <img src="UML class.png" width="500" title="Class Diagram">
   <br>
@@ -44,6 +48,8 @@ The Game of Life 2 (working title) is an application that allows a user to creat
 </p>
 
 ### 3.3 Sequence Diagram
+
+When a player places an entity, either an animal or a resource, the information on what animal was chosen and its location are sent to the control class. From there a new creature object is created which would have set traits. Then this animal object is attached to the animal on the UI.
 
 <p align="center">
   <img src=" Sequence Diagram.png" width="500" title="Sequence Diagram">
