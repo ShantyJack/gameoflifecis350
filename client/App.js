@@ -1,93 +1,45 @@
 import React, { useState, Component } from "react";
 import './App.css';
+import Board from './Board.js';
+import Select from './Select.js';
+import Step from './Step.js';
 
 function App() {
 
-  //const [resourceGrid, upDateResources] = useState([]);
-  //const [animalGrid, upDateAnimals] = useState([]);
-  const [gameGrid, upDateGrid] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
-  const [selectGrid, upDateSelect] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
-  //const [animalSelection, setSelection] = useState(0);
-
-  return (
+  return (  //this series of divs basically just sets the order of the layout, all of the magic is done in the css
     <div class="game-layout">
 
       <div class="game-column">
 
-        <div>
+        <div className="game-board">
 
-          {getBoard()}
+          <Board height={8} width={8} />
 
         </div>
 
-        <div>
+        <div className="select-row">
 
-          select
+          <Select width={8}/>
 
         </div>
       </div>
 
       <div class="step-column">
 
-        <div>
+        <div className="history">
 
           history
 
         </div>
 
-        <div>
+        <div className="play" onClick={() => window.location.reload(false)}>
 
           play
 
         </div>
       </div>
-
     </div>
   );
-}
-
-class AnimalSelect extends React.Component {
-
-  constructor() {
-    super();
-
-    this.state = {
-      selected: false
-    }
-  }
-
-  render() {
-    return <div>select</div>
-  }
-}
-
-class GameTile extends React.Component {
-
-  constructor() {
-    super();
-
-    this.state = {
-      animal: 0,
-      resource: 0
-    }
-  }
-
-  render() {
-    return <div>animal</div>
-  }
-}
-
-function getBoard() { 
-  return <div class="game-board">
-
-    {
-      gameGrid.map((tile) => {
-
-        return (<button></button>);
-      })
-    }
-  </div>
-
 }
 
 

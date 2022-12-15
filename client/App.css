@@ -33,8 +33,70 @@
 
 .game-board {
 
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto ;
+  border: 1px solid #000;
+  max-width: 373px;
+}
+
+.tile {
+
+  float: left;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 45px;
+
+}
+
+#plant {
+
+  background-color: #1F0;
+}
+
+#water {
+
+  background-color: #2EF;
+}
+
+#plantandwater {
+
+  background-color: #0C9;
+}
+
+.select-row {
+
+  border: 1px solid #F00;
+  max-width: 373px;
+}
+
+.selector {
+
+  float: left;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #F00;
+  text-align: center;
+  line-height: 45px;
+}
+
+.history {
+
+  border: 2px solid #0F0;
+  width: 147px;
+  height: 344px;
+  float: left;
+  text-align: center;
+  line-height: 45px;
+}
+
+.play {
+
+  border: 2px solid #00F;
+  width: 147px;
+  height: 72px;
+  float: left;
+  text-align: center;
+  line-height: 45px;
 }
 
 .App-header {
