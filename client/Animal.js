@@ -25,7 +25,7 @@ class Herbivore extends Animal {
 
     }
 
-}
+} //making a change here to test the CI pipeline
 
   export default Animal;
 
