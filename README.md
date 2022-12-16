@@ -57,3 +57,7 @@ When a player places an entity, either an animal or a resource, the information 
   <br>
   Sequence Diagram
 </p>
+
+## Risk Analysis
+
+## Retrospective
