@@ -59,5 +59,7 @@ When a player places an entity, either an animal or a resource, the information 
 </p>
 
 ## Risk Analysis
+One of the biggests risks are the lack of a thorough understanding of JavaScript. This could cause a greater chance for bugs to appear in our program and it could allow The Game Of Life 2 to crash or glitch. Some of the problems that appeared was the difficulty in setting up the board that the animals would actually move around on. Another issue was starting out with using Java as the backend. The scope with the backend was too large and should have stayed simple. It also should have been written in JavaScript in the first place. We managed to hard code the size of the board into the the program. But the backend was a little harder as the scope had to be decreased and the language had to be changed into one that we weren't as comfortable with.
 
 ## Retrospective
+We managed to make a very alpha version of our project a lot less than the large scope we had initially started with. We should have started with a smaller scope and dealt with the project that way. We could have dont better at splitting it up into more bite size pieces. We also should have aslo figured out what language would have worked the best. This would have allowed us to start with JavaScript rather than having to change the language half way through development.
